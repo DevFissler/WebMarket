@@ -16,17 +16,19 @@ public class Word {
 	
 	public static void main (String[] args) {
 		Word word = new Word("Hello World");
-		System.out.println(word.isVowel(1));
-		System.out.println(word.isVowel(4));
+		System.out.println(word.isVowel2(0));
+		System.out.println(word.isVowel2(4));
 	
 	}
 	
 	public boolean isVowel2 (int i) {
 		String a = "aeiou";
-		for (int index=0;i<a.length();i++) {
-			if(letters.substring(i,i+1).equals(a.substring(index, index+1))) {
-				return true;
+		boolean result=false;
+		for (int index=0;index<a.length();index++) {
+			if(letters.substring(i,i+1).equals(a.substring(index, index+1))==true) {
+				result=true;
 				break;
+				
 			}			
 		}
 		return result;
