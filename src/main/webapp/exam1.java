@@ -12,7 +12,8 @@ public class Word {
 		Word word = new Word("Hello World");
 		System.out.println(word.isConsonant(0));
 		System.out.println(word.isConsonant(2));
-
+		System.out.println(word.isCon2(0));
+		System.out.println(word.isCon2(2));
 	}
 
 	public boolean isConsonant(int i) {
@@ -25,5 +26,10 @@ public class Word {
 			}
 		}
 		return isCon;
+	}
+	
+	public boolean isCon2 (int i) {
+		String vowel = "aeiou";
+		return !(vowel.contains(letters.substring(i, i+1)));
 	}
 }
