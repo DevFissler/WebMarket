@@ -16,10 +16,10 @@ public class p1_2 {
 			a = a + inputWord();
 
 			if (count == index - 1) {
-				a = a + ".";
+				a += ".";
 				break;
 			}
-			a = a + ",";
+			a += ",";
 			count++;
 		}
 
@@ -43,14 +43,4 @@ public class p1_2 {
 		return name;
 	}
 
-	public static String addComma(String a) {
-		String commaAdded = a + ",";
-		return commaAdded;
-	}
-
-	public static String addDot(String a) {
-		String dotAdded = a + ".";
-		return dotAdded;
-	}
 }
-
