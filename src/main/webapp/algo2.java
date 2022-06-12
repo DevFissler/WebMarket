@@ -1,4 +1,3 @@
-package freePrac;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,10 +9,9 @@ public class algo2 {
 		ArrayList<Double> ar = new ArrayList<Double>();
 
 		Scanner sc = new Scanner(System.in);
-		String infoStr = sc.next();
 
 		String[] info = new String[3];
-		info = infoStr.split(" ");
+		info = sc.next().split(" ");
 
 		Scanner sc1 = new Scanner(System.in);
 		int count = sc1.nextInt();
