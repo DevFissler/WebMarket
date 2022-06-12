@@ -7,10 +7,16 @@ public class algo2 {
 	public static void main(String[] args) {
 
 		ArrayList<Double> ar = new ArrayList<Double>();
+<<<<<<< HEAD
 
 		Scanner sc = new Scanner(System.in);
 
 		String[] info = new String[3];
+=======
+		String[] info = new String[3];
+		
+		Scanner sc = new Scanner(System.in);
+>>>>>>> b6e7a520da47ceeb3ac8c427cd2b6bcaeb2e5cdb
 		info = sc.next().split(" ");
 
 		Scanner sc1 = new Scanner(System.in);
