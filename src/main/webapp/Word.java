@@ -1,5 +1,3 @@
-package freePrac;
-
 public class Word {
 
 	private String letters;
